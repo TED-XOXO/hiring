@@ -1,0 +1,5046 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav .h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav i{
+    display: none;
+}
+.container .nav .h1 .logo{
+    font-family: 'Nova Oval', cursive;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container .nav .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .nav .ul2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .ul2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .nav .ul2 .a1{
+    color: black;
+}
+.container .nav .ul2 .a2{
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 50px;
+    padding: 60px 80px;
+    color: white;
+    background-image: url(home\ background\ 1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+.container .section1 .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+}
+.container .section1 .heading h1{
+    font-size: 42px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    width: 650px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.container .section1 .heading p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 150%;
+}
+.container .section1 .ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 20px;
+}
+.container .section1 .ul a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 35%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.container .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+    padding: 100px 70px;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    background-color: antiquewhite;
+}
+.container .section2 h1{
+    font-size: 40px;
+}
+.container .section2 p{
+    font-size: 18px;
+    text-align: center;
+}
+.container .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 100px;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.container .section3 .span1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    gap: 20px;
+    padding: 0px 200px;
+}
+.container .section3 .span1 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.container .section3 .span1 .p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .section3 .span1 .p p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .section3 .span1 .a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.container .section3 .span1 .a a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section3 .span1 .a .i{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section3 .span2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 200px;
+    padding-left: 55%;
+}
+.container .section3 .span2 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.container .section3 .span2 .p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .section3 .span2 .p p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .section3 .span2 .a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.container .section3 .span2 .a a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section3 .span2 .a .i{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section3 .span3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    gap: 20px;
+    padding: 0px 200px;
+}
+.container .section3 .span3 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.container .section3 .span3 .p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .section3 .span3 .p p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .section3 .span3 .a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.container .section3 .span3 .a a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section3 .span3 .a .i{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container .section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    padding: 50px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.container .section4 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.container .section4 .searchbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container .section4 .searchbutton input{
+    padding: 15px 180px;
+    border: 1px solid white;
+}
+::placeholder{
+    font-size: 18px;
+}
+.container .section4 .searchbutton a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 18px;
+}
+.container .section4 h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.container .section4 .span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container .section4 .span .span1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.container .section4 .span .span1 span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 12px 20px;
+    background-color: rgb(0, 0, 255, 0.5);
+    border-radius: 5px;
+}
+.container .section4 .span .span1 span a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section4 .span .span1 span .i{
+    font-size: 18px;
+}
+.container .section4 .span .span2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.container .section4 .span .span2 span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 12px 20px;
+    background-color: rgb(0, 0, 255, 0.5);
+    border-radius: 5px;
+}
+.container .section4 .span .span2 span a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section4 .span .span2 span .i{
+    font-size: 18px;
+}
+.container .section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 20px;
+    background-image: url(background\ app.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(0, 255, 255, 0.8);
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container .section5 h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.container .section5 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.container .section5 span a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.container .section5 span i{
+    font-size: 18px;
+}
+.container .footer{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+    padding-right: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container .footer .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .h1 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: yellow;
+}
+.container .footer .a1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .footer .a1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container .footer p{
+    color: white;
+    font-size: 14px;
+}
+.container .footer .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .support p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .support .a2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .support .a2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.container .footer .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .about p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .about .a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .about .a3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+@media screen and (max-width: 1400px){
+    .container .section4 .span .span1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 1350px){
+    .container .section4 .span .span1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        padding: 50px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media screen and (max-width: 1250px){
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 150px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 0px 150px;
+        padding-left: 58%;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 150px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 .searchbutton input{
+        padding: 15px 150px;
+        border: 1px solid white;
+    }
+    .container .section4 .span .span1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container .section1 .heading p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        width: 700px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        line-height: 150%;
+    }
+    .container .section1 .ul a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 35px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 35%;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 0px 150px;
+        padding-left: 55%;
+    }
+    .container .section4 .searchbutton input{
+        padding: 13px 130px;
+        border: 1px solid white;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 13px 30px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 18px;
+    }
+    .container .section4 .span .span1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 1160px){
+    .container .section4 .span .span1 .a3{
+        display: none;
+    }
+    .container .section4 .span .span1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1150px){
+    .container .section1 .ul a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 35%;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 120px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 0px 120px;
+        padding-left: 52%;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 120px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 100px 60px;
+        font-family: 'Roboto', sans-serif;
+        gap: 30px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 40px;
+    }
+    .container .section2 p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 15px 0px;
+        padding: 15px 30px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    .container .section5 span i{
+        font-size: 16px;
+    } 
+}
+@media screen and (max-width: 1050px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading h1{
+        font-size: 42px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 800px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .heading p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        width: 750px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        line-height: 150%;
+    }
+    .container .section1 .ul a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 37%;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container .section1 .ul a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 45%;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 80px 60px;
+        font-family: 'Roboto', sans-serif;
+        gap: 20px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 40px;
+    }
+    .container .section2 p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 120px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 12px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 0px 120px;
+        padding-left: 53%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 12px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 20px;
+        padding: 0px 120px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 12px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .container .section4 h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 12px 120px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 16px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 12px 30px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 16px;
+    }
+    .container .section4 h2{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 15px;
+    }
+    .container .section4 .span .span2 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 950px){
+    .container .nav .ul2 .a1{
+        padding: 10px 20px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+    }
+    .container .nav .ul2 .a2{
+        display: none;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 70px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 20px;
+        padding: 0px 100px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 0px 100px;
+        padding-left: 57%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 20px;
+        padding: 0px 100px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 30px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 .searchbutton input{
+        padding: 10px 100px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 16px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 10px 25px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .nav .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .nav .ul2 .a1{
+        padding: 10px 20px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+        padding: 60px 80px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 70px 60px;
+        font-family: 'Roboto', sans-serif;
+        gap: 20px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 38px;
+    }
+    .container .section2 p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 70px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 100px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 100px;
+        padding-left: 57%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 100px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section4 .span .span2 .a1{
+        display: none;
+    }
+    .container .section4 .span .span2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 10px 0px;
+        padding: 15px 20px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    .container .section5 span i{
+        font-size: 16px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 40px 30px;
+        padding-right: 150px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 850px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+        padding: 60px 60px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 50%;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul i{
+        font-size: 18px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 60px 50px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 36px;
+    }
+    .container .section2 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 8px 100px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 8px 25px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 14px;
+    }
+    .container .section4 h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 12px;
+    }
+    .container .section4 .span .span2 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 60px 50px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 36px;
+    }
+    .container .section2 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 50px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 70px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 70px;
+        padding-left: 55%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 70px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 11px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    .container .section5 span i{
+        font-size: 13px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 750px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+        padding: 60px 40px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 50%;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul i{
+        font-size: 16px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 60px 40px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 36px;
+    }
+    .container .section2 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 50px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 10px;
+        padding: 0px 60px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 8px 15px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 60px;
+        padding-left: 50%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 8px 15px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 10px;
+        padding: 0px 60px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 8px 15px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 700px){
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .nav i{
+        display: flex;
+        font-size: 28px;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul a{
+        display: none;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 50px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 12px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 40px;
+        padding-left: 55%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 12px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 12px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        padding: 20px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 8px 60px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 8px 20px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 12px;
+    }
+    .container .section4 h2{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 15px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 12px;
+    }
+    .container .section4 .span .span2 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 15px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 12px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 11px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section5 span i{
+        font-size: 13px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 30px;
+        padding-right: 100px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 10px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }   
+}
+@media screen and (max-width: 650px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+        padding: 60px 40px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+}
+@media screen and (max-width: 600px){
+    .container .section1 .ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 60%;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 50px 40px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 34px;
+    }
+    .container .section2 p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 40px;
+        padding: 40px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 40px;
+        padding-left: 55%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        padding: 20px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 8px 60px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 8px 20px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 12px;
+    }
+    .container .section4 h2{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 15px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 12px;
+    }
+    .container .section4 .span .span2 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 15px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 12px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 5px 0px;
+        padding: 10px 15px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 9px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section5 span i{
+        font-size: 12px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }   
+}
+@media screen and (max-width: 550px){
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 40px;
+        padding: 40px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 40px;
+        padding-left: 50%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        padding: 15px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 6px 30px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 6px 15px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 10px;
+    }
+    .container .section4 h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 10px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 10px;
+    }
+    .container .section4 .span .span2 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 10px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 10px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 5px 0px;
+        padding: 10px 15px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 9px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .container .section5 span i{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .nav i{
+        display: flex;
+        font-size: 24px;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container .nav .ul2 .a1{
+        padding: 10px 18px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+        padding: 40px 30px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 12px 12px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 60%;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul a{
+        font-size: 15px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 40px 40px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 30px;
+    }
+    .container .section2 p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 30px;
+        padding: 40px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 40px;
+        padding-left: 40%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section5 p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0px;
+        padding: 8px 10px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section5 span i{
+        font-size: 10px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}
+@media screen and (max-width: 450px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .nav .ul2 .a1{
+        padding: 10px 14px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 30px 30px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 12px 12px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 60%;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul a{
+        font-size: 13px;
+    }
+    .container .section1 .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 40px 30px;
+        font-family: 'Roboto', sans-serif;
+        gap: 10px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 28px;
+    }
+    .container .section2 p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 30px;
+        padding: 30px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 40px;
+        padding-left: 40%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 10px;
+        padding: 0px 40px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 6px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 6px 30px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 6px 15px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 10px;
+    }
+    .container .section4 h2{
+        display: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span{
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 10px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span1 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span1 span .i{
+        font-size: 10px;
+    }
+    .container .section4 .span .span2 span{
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 10px;
+        background-color: rgb(0, 0, 255, 0.5);
+        border-radius: 5px;
+    }
+    .container .section4 .span .span2 span a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section4 .span .span2 span .i{
+        font-size: 10px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 20px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section5 p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0px;
+        padding: 8px 10px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section5 span i{
+        font-size: 10px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 60px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 400px){
+    .container .nav i{
+        display: flex;
+        font-size: 22px;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .container .nav .ul2 .a1{
+        padding: 8px 12px;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .container .section1 .heading h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px 10px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 60%;
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul a{
+        font-size: 10px;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 20px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 75%;
+        gap: 10px;
+        padding: 0px 30px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0px 30px;
+        padding-left: 30%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 75%;
+        gap: 10px;
+        padding: 0px 30px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 0px 10px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 6px 15px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 8px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 15px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section5 p{
+        font-size: 6px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        margin: 0px 0px;
+        padding: 6px 8px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section5 span i{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 30px 20px;
+        color: white;
+        background-image: url(home\ background\ 1.avif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section1 .heading p{
+        text-align: center;
+        font-size: 11px;
+        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section1 .ul a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 8px 10px;
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 70%;
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section1 .ul a{
+        font-size: 10px;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        padding: 20px 20px;
+        font-family: 'Roboto', sans-serif;
+        gap: 8px;
+        background-color: antiquewhite;
+    }
+    .container .section2 h1{
+        font-size: 26px;
+    }
+    .container .section2 p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 20px 0px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    .container .section3 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        gap: 5px;
+        padding: 0px 20px;
+    }
+    .container .section3 .span1 h2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section3 .span1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span1 .p p{
+        font-size: 9px;
+        font-weight: 200;
+    }
+    .container .section3 .span1 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span1 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section3 .span1 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section3 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+        padding: 0px 20px;
+        padding-left: 25%;
+    }
+    .container .section3 .span2 h2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section3 .span2 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section3 .span2 .p p{
+        font-size: 9px;
+        font-weight: 200;
+    }
+    .container .section3 .span2 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span2 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section3 .span2 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section3 .span3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80%;
+        gap: 10px;
+        padding: 0px 20px;
+    }
+    .container .section3 .span3 h2{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section3 .span3 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .section3 .span3 .p p{
+        font-size: 9px;
+        font-weight: 200;
+    }
+    .container .section3 .span3 .a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 8px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .container .section3 .span3 .a a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section3 .span3 .a .i{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container .section4 h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section4 .searchbutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .container .section4 .searchbutton input{
+        padding: 0px 5px;
+        border: 1px solid white;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    .container .section4 .searchbutton a{
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        border: transparent;
+        font-size: 8px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 15px;
+        background-image: url(background\ app.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgb(0, 255, 255, 0.8);
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .section5 h1{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section5 p{
+        font-size: 6px;
+        font-weight: 400;
+    }
+    .container .section5 span a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        margin: 0px 0px;
+        padding: 6px 8px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .container .section5 span i{
+        font-size: 6px;   
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}

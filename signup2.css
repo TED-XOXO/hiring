@@ -1,0 +1,811 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    background-image: url(sign\ up\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+}
+.container .nav .logo{
+    font-size: 36px;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.container .nav .p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .p p{
+    font-size: 18px;
+    color: rgb(245, 222, 179, 0.7);
+}
+.container .nav .p a{
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(128, 255, 212);
+    border-radius: 50px;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: rgb(0, 0, 0, 0.2);
+    gap: 20px;
+}
+.container .section1 .p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container .section1 .inputel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.container .section1 .inputel .input1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section1 .inputel .input1 p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.container .section1 .inputel .input1 input{
+    padding: 12px 100px;
+}
+.container .section1 .inputel .input2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section1 .inputel .input2 p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.container .section1 .inputel .input2 input{
+    padding: 12px 100px;
+}
+.container .section1 .inputel .input4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section1 .inputel .input4 p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.container .section1 .inputel .input4 input{
+    padding: 12px 100px;
+}
+.container .section1 .inputel .input5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section1 .inputel .input5 p{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.container .section1 .inputel .input5 input{
+    padding: 12px 100px;
+}
+.container .section1 .sign{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.container .section1 .sign .a1{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 15px 0px;
+    background-color: rgb(0, 0, 255, 0.5);
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.container .section1 .sign .p{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container .section1 .sign .p p{
+    font-size: 18px;
+    color: rgb(245, 222, 179, 0.7);
+}
+.container .section1 .sign .p .a2{
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(128, 255, 212);
+    border-radius: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 15px 40px;
+    }
+    .container .nav .logo{
+        font-size: 32px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .nav .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+    .container .nav .p p{
+        font-size: 16px;
+        color: rgb(245, 222, 179, 0.7);
+    }
+    .container .nav .p a{
+        padding: 8px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+        background-color: rgb(0, 0, 0, 0.2);
+        gap: 20px;
+    }
+    .container .section1 .p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .container .section1 .inputel .input1 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input2 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input4 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input5 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .sign .a1{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 15px 0px;
+        background-color: rgb(0, 0, 255, 0.5);
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .container .nav .logo{
+        font-size: 32px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .nav .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .p p{
+        font-size: 16px;
+        color: rgb(245, 222, 179, 0.7);
+    }
+    .container .nav .p a{
+        padding: 8px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+        background-color: rgb(0, 0, 0, 0.2);
+        gap: 20px;
+    }
+    .container .section1 .p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .container .section1 .inputel .input1 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input2 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input4 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input5 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 12px 90px;
+    }
+    .container .section1 .sign .a1{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 15px 0px;
+        background-color: rgb(0, 0, 255, 0.5);
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .container .nav .logo{
+        font-size: 34px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .nav .p{
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .section1 .sign{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section1 .sign .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .container .section1 .sign .p p{
+        font-size: 16px;
+        color: rgb(245, 222, 179, 0.7);
+    }
+    .container .section1 .sign .p .a2{
+        padding: 8px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 12px 100px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 12px 100px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 12px 100px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 12px 100px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 15px 50px;
+    }
+    .container .nav .logo{
+        font-size: 32px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        padding-top: 10px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1 .p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 26px;
+    }
+    .container .section1 .inputel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+    .container .section1 .inputel .input1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+    .container .section1 .inputel .input2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+    .container .section1 .inputel .input4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+    .container .section1 .inputel .input5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+    .container .section1 .sign .a1{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 12px 0px;
+        background-color: rgb(0, 0, 255, 0.5);
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+    .container .section1 .inputel .input1 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+    .container .section1 .inputel .input2 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+    .container .section1 .inputel .input4 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+    .container .section1 .inputel .input5 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 10px 80px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 10px 80px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 10px 80px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 10px 80px;
+    }
+    .container .section1 .sign .p p{
+        font-size: 14px;
+        color: rgb(245, 222, 179, 0.7);
+    }
+    .container .section1 .sign .p .a2{
+        padding: 6px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 450px){
+    .container .section1 .inputel .input1 input{
+        padding: 10px 70px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 10px 70px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 10px 70px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 10px 70px;
+    }
+}
+@media screen and (max-width: 400px){
+    .container .section1 .inputel .input1 input{
+        padding: 10px 60px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 10px 60px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 10px 60px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 10px 60px;
+    }
+    .container .section1 .sign .p .a2{
+        padding: 6px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .container .nav .logo{
+        font-size: 30px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        padding-top: 0px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1 .p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 10px 50px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 10px 50px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 10px 50px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width: 300px){
+    .container .section1 .inputel .input1 input{
+        padding: 8px 40px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 8px 40px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 8px 40px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 8px 40px;
+    }
+}
+@media screen and (max-width: 280px){
+    .container .section1 .inputel .input1 input{
+        padding: 8px 30px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 8px 30px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 8px 30px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 8px 30px;
+    }
+}
+@media screen and (max-width: 250px){
+    .container{
+        width: 100%;
+        gap: 5px;
+        padding-bottom: 50px;
+    }
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .container .nav .logo{
+        font-size: 28px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        background-color: transparent;
+        gap: 10px;
+    }
+    .container .section1 .p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .container .section1 .inputel .input1 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 13px;
+    }
+    .container .section1 .inputel .input2 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 13px;
+    }
+    .container .section1 .inputel .input4 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 13px;
+    }
+    .container .section1 .inputel .input5 p{
+        color: rgb(255, 255, 255, 0.5);
+        font-size: 13px;
+    }
+    .container .section1 .inputel .input1 input{
+        padding: 6px 30px;
+    }
+    .container .section1 .inputel .input2 input{
+        padding: 6px 30px;
+    }
+    .container .section1 .inputel .input4 input{
+        padding: 6px 30px;
+    }
+    .container .section1 .inputel .input5 input{
+        padding: 6px 30px;
+    }
+    .container .section1 .sign .a1{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 8px 0px;
+        background-color: rgb(0, 0, 255, 0.5);
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+    .container .section1 .inputel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section1 .sign .p p{
+        font-size: 12px;
+        color: rgb(245, 222, 179, 0.7);
+    }
+    .container .section1 .sign .p .a2{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+        background-color: rgb(128, 255, 212);
+        border-radius: 50px;
+    }
+}

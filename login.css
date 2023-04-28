@@ -1,0 +1,626 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(log\ in\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-bottom: 100px;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px 50px;
+}
+.container .nav .logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.6);
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    gap: 30px;
+}
+.container .section1 .p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section1 .p h1{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.container .section1 .p p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0, 0.6);
+}
+.container .section1 .inputel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+}
+.container .section1 .inputel .i1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+.container .section1 .inputel .i1 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section1 .inputel .i1 input{
+    width: 100%;
+    padding: 14px 0px;
+    border: 1px solid white;
+}
+.container .section1 .inputel .i2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+.container .section1 .inputel .i2 .input1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+.container .section1 .inputel .i2 .input1 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section1 .inputel .i2 .input1 input{
+    width: 100%;
+    padding: 14px 150px;
+    border: 1px solid white;
+}
+.container .section1 .inputel .i2 .input2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container .section1 .inputel .i2 .input2 .input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.container .section1 .inputel .i2 .input2 label{
+     font-size: 15px;
+     color: black;
+     font-weight: 500;
+}
+.container .section1 .inputel .i2 .input2 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container .section1 .a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+.container .section1 .a .a1{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.container .section1 .a .a2{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 14px 120px;
+        border: 1px solid white;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .section1 .p p{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 14px 100px;
+        border: 1px solid white;
+    }
+}
+@media screen and (max-width: 800px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+        margin-top: 10px;
+        background-color: transparent;
+        gap: 30px;
+    }
+    .container .section1 .inputel .i1 input{
+        width: 100%;
+        padding: 13px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 13px 90px;
+        border: 1px solid white;
+    }
+}
+@media screen and (max-width: 600px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 8px 30px;
+    }
+    .container .nav .logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        font-weight: 500;
+        color: rgb(255, 255, 255, 0.6);
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+        margin-top: 10px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1 .p h1{
+        font-size: 28px;
+        color: black;
+        font-weight: 600;
+    }
+    .container .section1 .p p{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .inputel .i1 input{
+        width: 100%;
+        padding: 12px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 12px 70px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i1 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i2 .input1 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section1 .inputel .i2 .input2 .input{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3px;
+    }
+    .container .section1 .inputel .i2 .input2 label{
+        font-size: 13px;
+        color: black;
+        font-weight: 500;
+   }
+   .container .section1 .inputel .i2 .input2 a{
+       text-decoration: none;
+       font-size: 13px;
+       font-weight: 500;
+   }
+   .container .section1 .a .a1{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    }
+    .container .section1 .a .a2{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+        margin-top: 0px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        margin-top: 10px;
+        background-color: transparent;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 450px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+        margin-top: 10px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .nav .logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 36px;
+        font-weight: 500;
+        color: rgb(255, 255, 255, 0.6);
+    }
+    .container .section1 .p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+    .container .section1 .p h1{
+        font-size: 26px;
+        color: black;
+        font-weight: 600;
+    }
+    .container .section1 .p p{
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .inputel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+    }
+    .container .section1 .inputel .i1 input{
+        width: 100%;
+        padding: 8px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 8px 50px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i1 p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i2 .input1 p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+        width: 100%;
+    }
+    .container .section1 .inputel .i2 .input1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+        width: 100%;
+    }
+    .container .section1 .a .a1{
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        padding: 12px 0px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        }
+}
+@media screen and (max-width: 400px){
+    .container .section1 .p p{
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 250px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 8px 40px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input2 label{
+        font-size: 11px;
+        color: black;
+        font-weight: 500;
+   }
+   .container .section1 .inputel .i2 .input2 a{
+       text-decoration: none;
+       font-size: 11px;
+       font-weight: 500;
+   }
+}
+@media screen and (max-width: 300px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 6px 20px;
+    }
+    .container .nav .logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        font-weight: 500;
+        color: rgb(255, 255, 255, 0.6);
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        margin-top: 0px;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .container .section1 .p p{
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 220px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .inputel .i1 input{
+        width: 100%;
+        padding: 6px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 6px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .container .section1 .a .a1{
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        padding: 12px 0px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 300px){
+    .container{
+        padding-bottom: 50px;
+    }
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 6px 10px;
+    }
+    .container .nav .logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        font-weight: 500;
+        color: rgb(255, 255, 255, 0.6);
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+        margin-top: 0px;
+        background-color: transparent;
+        gap: 10px;
+    }
+    .container .section1 .p h1{
+        font-size: 20px;
+        color: black;
+        font-weight: 600;
+    }
+    .container .section1 .p p{
+        font-size: 10px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.6);
+        width: 180px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section1 .inputel .i1 input{
+        width: 100%;
+        padding: 5px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input1 input{
+        width: 100%;
+        padding: 5px 0px;
+        border: 1px solid white;
+    }
+    .container .section1 .inputel .i2 .input2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .container .section1 .a .a1{
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        padding: 10px 0px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+    }
+    .container .section1 .inputel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section1 .inputel .i1 p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i2 .input1 p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1 .inputel .i2 .input2 label{
+        font-size: 9px;
+        color: black;
+        font-weight: 500;
+   }
+   .container .section1 .inputel .i2 .input2 a{
+       text-decoration: none;
+       font-size: 9px;
+       font-weight: 500;
+   }
+   .container .section1 .a .a2{
+    text-decoration: none;
+    font-size: 9px;
+    font-weight: 500;
+    }
+}

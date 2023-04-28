@@ -1,0 +1,1987 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+    width: 100%;
+    background-color: black;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    gap: 30px;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}    
+.container .section1 .logo{
+    text-align: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+}
+.container .section1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 70px;
+}
+.container .section1 ul li{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    font-weight: 400;
+}
+.container .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    padding: 60px 0px;
+    padding-bottom: 150px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 255, 255, 0.7);
+}
+.container .section2 .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+}
+.container .section2 h1{
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+}
+.container .section2 p{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container .section2 p a{
+    text-decoration: none;
+}
+.container .section2 .span1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 70%;
+}
+.container .section2 .span1 .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+.container .section2 .span1 .email p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section2 .span1 .email input{
+    padding: 12px 0px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.container .section2 .span1 .password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+.container .section2 .span1 .password p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .section2 .span1 .password input{
+    padding: 12px 0px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.container .section2 .span2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+    margin-top: 30px;
+}
+.container .section2 .span2 .a1{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.container .section2 .span2 .p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2px;
+}
+.container .section2 .span2 .p p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.container .section2 .span2 .p a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 30px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0px 70px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 16px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 30px;
+        padding: 60px 0px;
+        padding-bottom: 150px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 20px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 12px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 12px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 15px 0px;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 30px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 65px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 0px 50px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 16px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 25px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 15px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 10px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 10px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 14px 0px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 850px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 30px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 0px 50px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 25px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 15px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 10px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 10px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 14px 0px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 800px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 30px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 0px 50px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 20px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 750px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 25px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 0px 40px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 13px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 20px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 700px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 25px;
+        padding: 50px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 0px 40px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 13px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 20px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 85%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 650px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 25px;
+        padding: 40px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 0px 40px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 12px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 20px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 85%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 600px){
+    .container .section1{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        gap: 25px;
+        padding: 40px 0px;
+        font-family: 'Roboto', sans-serif;
+    }    
+    .container .section1 .logo{
+        text-align: center;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .container .section1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 0px 40px;
+    }
+    .container .section1 ul li{
+        color: white;
+        font-size: 12px;
+        text-align: left;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 60px 0px;
+        padding-bottom: 120px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 60%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 550px){
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 0px;
+        padding-bottom: 100px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        gap: 12px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 70%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 8px 0px;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 0px;
+        padding-bottom: 100px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        gap: 10px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        width: 70%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 400px){
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        padding: 30px 0px;
+        padding-bottom: 80px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 7px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 0px;
+        padding-bottom: 60px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 8px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 5px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 5px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 8px 0px;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 9px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 300px){
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+        padding: 30px 0px;
+        padding-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(0, 255, 255, 0.7);
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 4px;
+    }
+    .container .section2 h1{
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .container .section2 p{
+        width: 100%;
+        text-align: left;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section2 p a{
+        text-decoration: none;
+    }
+    .container .section2 .span1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        width: 80%;
+    }
+    .container .section2 .span1 .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+        width: 100%;
+    }
+    .container .section2 .span1 .email p{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .email input{
+        padding: 5px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span1 .password{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+        width: 100%;
+    }
+    .container .section2 .span1 .password p{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .container .section2 .span1 .password input{
+        padding: 5px 0px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .container .section2 .span2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 10px;
+        margin-top: 12px;
+    }
+    .container .section2 .span2 .a1{
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        padding: 8px 0px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+    .container .section2 .span2 .p{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        gap: 2px;
+    }
+    .container .section2 .span2 .p p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section2 .span2 .p a{
+        text-decoration: none;
+        font-size: 8px;
+        font-weight: 400;
+    }
+}
