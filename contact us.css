@@ -1,0 +1,2600 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav .h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav i{
+    display: none;
+}
+.container .nav .h1 .logo{
+    font-family: 'Nova Oval', cursive;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container .nav .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: white;
+    padding: 30px 50px;
+    gap: 10px;
+}
+.container .section1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.container .section1 p{
+    line-height: 130%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: black;
+    padding: 40px 0px;
+}
+.container .section2 .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    gap: 15px;
+}
+.container .section2 .h1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.container .section2 .h1 h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+.container .section2 .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 100px;
+    gap: 20px;
+}   
+.container .section2 .input span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .section2 .input span p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .section2 .input span input{
+    padding: 18px 150px;
+}
+.container .section2 .input .message input{
+    padding: 50px 150px;
+}
+.container .section2 .input .a{
+    margin-top: 30px;
+}
+.container .section2 .input .a a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.container .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px;
+    gap: 40px;
+}
+.container .section3 h1{
+    font-size: 28px;
+}
+.container .section3 .location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 80px;
+}
+.container .section3 .location span{
+    text-align: center;
+    width: 20%;
+    line-height: 160%;
+}
+.container .section3 .location span h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .section3 .location span a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+}
+.container .section3 .location span p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.container .footer{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+    padding-right: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container .footer .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .h1 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: yellow;
+}
+.container .footer .a1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .footer .a1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container .footer p{
+    color: white;
+    font-size: 14px;
+}
+.container .footer .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .support p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .support .a2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .support .a2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.container .footer .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .about p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .about .a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .about .a3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 1050px){
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 40px;
+    }
+    .container .section3 h1{
+        font-size: 28px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 60px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 20%;
+        line-height: 160%;
+    }
+    .container .section3 .location span h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 40px;
+    }
+    .container .section3 h1{
+        font-size: 28px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 40px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 20%;
+        line-height: 160%;
+    }
+    .container .section3 .location span h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 950px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }  
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 40px;
+    }
+    .container .section3 h1{
+        font-size: 28px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 18%;
+        line-height: 160%;
+    }
+    .container .section3 .location span h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 30px 40px;
+        gap: 10px;
+    }
+    .container .section1 h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 30px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 50px;
+        gap: 12px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 40px 100px;
+        gap: 20px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .section2 .input span p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 16px 120px;
+    }
+    .container .section2 .input .message input{
+        padding: 40px 120px;
+    }
+    .container .section2 .input .a{
+        margin-top: 30px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 15px 35px;
+        background-color: blue;
+        color: white;
+        font-size: 18px;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 40px;
+    }
+    .container .section3 h1{
+        font-size: 26px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 18%;
+        line-height: 160%;
+    }
+    .container .section3 .location span h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 40px 30px;
+        padding-right: 150px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}              
+@media screen and (max-width: 800px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 30px;
+    }
+    .container .section3 h1{
+        font-size: 24px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 18%;
+        line-height: 160%;
+    }
+    .container .section3 .location span h3{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 750px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 20px 30px;
+        gap: 10px;
+    }
+    .container .section1 h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 20px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 40px;
+        gap: 12px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 40px 100px;
+        gap: 20px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .section2 .input span p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 14px 100px;
+    }
+    .container .section2 .input .message input{
+        padding: 32px 100px;
+    }
+    .container .section2 .input .a{
+        margin-top: 20px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 12px 30px;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 700px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0px;
+        gap: 30px;
+    }
+    .container .section3 h1{
+        font-size: 22px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 18%;
+        line-height: 150%;
+    }
+    .container .section3 .location span h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 650px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 20px 30px;
+        gap: 10px;
+    }
+    .container .section1 h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 20px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 40px;
+        gap: 12px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 100px;
+        gap: 20px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .section2 .input span p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 12px 80px;
+    }
+    .container .section2 .input .message input{
+        padding: 26px 80px;
+    }
+    .container .section2 .input .a{
+        margin-top: 20px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 12px 28px;
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0px;
+        gap: 30px;
+    }
+    .container .section3 h1{
+        font-size: 20px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+        line-break: anywhere;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 18%;
+        line-height: 150%;
+    }
+    .container .section3 .location span h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}
+@media screen and (max-width: 550px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+    .container .section1 h1{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 10px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 40px;
+        gap: 10px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 100px;
+        gap: 20px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .section2 .input span p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 10px 60px;
+    }
+    .container .section2 .input .message input{
+        padding: 22px 60px;
+    }
+    .container .section2 .input .a{
+        margin-top: 10px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 10px 28px;
+        background-color: blue;
+        color: white;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+    .container .section3 h1{
+        font-size: 18px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 0px;
+        gap: 20px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section3 .location span h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}                        
+@media screen and (max-width: 450px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 15px 20px;
+        gap: 8px;
+    }
+    .container .section1 h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 10px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 30px;
+        gap: 8px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 100px;
+        gap: 15px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .section2 .input span p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 6px 30px;
+    }
+    .container .section2 .input .message input{
+        padding: 16px 30px;
+    }
+    .container .section2 .input .a{
+        margin-top: 8px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 8px 24px;
+        background-color: blue;
+        color: white;
+        font-size: 11px;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px;
+        gap: 20px;
+    }
+    .container .section3 h1{
+        font-size: 16px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 0px;
+        gap: 20px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 100%;
+        line-height: 150%;
+    }
+    .container .section3 .location span h3{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 60px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 400px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 10px 15px;
+        gap: 5px;
+    }
+    .container .section1 h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 10px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 20px;
+        gap: 5px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px 100px;
+        gap: 15px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .section2 .input span p{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 3px 20px;
+    }
+    .container .section2 .input .message input{
+        padding: 10px 20px;
+    }
+    .container .section2 .input .a{
+        margin-top: 5px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 8px 22px;
+        background-color: blue;
+        color: white;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }     
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0px;
+        gap: 10px;
+    }
+    .container .section3 h1{
+        font-size: 14px;
+    }
+    .container .section3 .location{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+    .container .section3 .location span{
+        text-align: center;
+        width: 100%;
+        line-height: 120%;
+    }
+    .container .section3 .location span h3{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section3 .location span a{
+        text-decoration: none;
+        font-size: 8px;
+        color: black;
+        font-weight: 300;
+    }
+    .container .section3 .location span p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 320px){
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 10px 15px;
+        gap: 5px;
+    }
+    .container .section1 h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 10px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+        gap: 5px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px 80px;
+        gap: 12px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .section2 .input span p{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 3px 10px;
+    }
+    .container .section2 .input .message input{
+        padding: 10px 10px;
+    }
+    .container .section2 .input .a{
+        margin-top: 3px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 8px 18px;
+        background-color: blue;
+        color: white;
+        font-size: 9px;
+    }
+}  
+@media screen and (max-width: 300px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: white;
+        padding: 10px 15px;
+        gap: 5px;
+    }
+    .container .section1 h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 130%;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        color: black;
+        padding: 10px 0px;
+    }
+    .container .section2 .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+        gap: 5px;
+    }
+    .container .section2 .h1 h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section2 .h1 h2{
+        text-align: center;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .container .section2 .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px 80px;
+        gap: 12px;
+    }   
+    .container .section2 .input span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .section2 .input span p{
+        font-size: 7px;
+        font-weight: 500;
+    }
+    .container .section2 .input span input{
+        padding: 2px 5px;
+    }
+    .container .section2 .input .message input{
+        padding: 8px 5px;
+    }
+    .container .section2 .input .a{
+        margin-top: 3px;
+    }
+    .container .section2 .input .a a{
+        text-decoration: none;
+        padding: 6px 16px;
+        background-color: blue;
+        color: white;
+        font-size: 7px;
+    }
+}                         

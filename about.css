@@ -1,0 +1,2312 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav .h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav i{
+    display: none;
+}
+.container .nav .h1 .logo{
+    font-family: 'Nova Oval', cursive;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container .nav .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    padding: 50px 80px;
+    background-color: black;
+    color: aliceblue;
+}
+.container .section1 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+.container .section1 p{
+    line-height: 150%;
+    font-size: 28px;
+    font-weight: 400;
+    width: 800px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.container .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding: 80px 50px;
+    background-color: rgb(0, 217, 255, 0.3);
+    color: rgba(49, 42, 42, 0.997);
+}
+.container .section2 h2{
+    text-align: right;
+    font-size: 30px;
+    width: 900px;
+    font-weight: 400;
+    line-height: 110%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.container .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+}
+.container .section3 h1{
+    text-align: center;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 36px;
+}
+.container .footer{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+    padding-right: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container .footer .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .h1 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: yellow;
+}
+.container .footer .a1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .footer .a1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container .footer p{
+    color: white;
+    font-size: 14px;
+}
+.container .footer .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .support p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .support .a2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .support .a2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.container .footer .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .about p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .about .a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .about .a3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 60px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 42px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 26px;
+        font-weight: 400;
+        width: 700px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 80px 50px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 28px;
+        width: 850px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 80px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 60px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 24px;
+        font-weight: 400;
+        width: 650px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 70px 50px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 26px;
+        width: 800px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 80px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 950px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 60px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 24px;
+        font-weight: 400;
+        width: 600px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 70px 40px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 24px;
+        width: 700px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 80px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 29px;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 50px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 22px;
+        font-weight: 400;
+        width: 600px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 60px 40px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 24px;
+        width: 700px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 80px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 28px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 40px 30px;
+        padding-right: 150px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 800px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 40px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 22px;
+        font-weight: 400;
+        width: 600px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 60px 30px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 22px;
+        width: 650px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 50px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 26px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 750px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 40px 30px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 20px;
+        font-weight: 400;
+        width: 500px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 30px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 20px;
+        width: 600px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 50px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 24px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 700px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 40px 30px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 18px;
+        font-weight: 400;
+        width: 500px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 30px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 20px;
+        width: 550px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 50px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 22px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}
+@media screen and (max-width: 600px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 16px;
+        font-weight: 400;
+        width: 450px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 30px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 18px;
+        width: 480px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 40px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 20px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}
+@media screen and (max-width: 550px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 30px 30px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 15px;
+        font-weight: 400;
+        width: 450px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 20px;
+        padding: 30px 30px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 16px;
+        width: 420px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 20px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 14px;
+        font-weight: 400;
+        width: 400px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 15px;
+        padding: 20px 20px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 14px;
+        width: 340px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}
+@media screen and (max-width: 450px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 20px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 11px;
+        font-weight: 400;
+        width: 350px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 15px;
+        padding: 20px 20px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 12px;
+        width: 340px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 13px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 60px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 400px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 15px 15px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 9px;
+        font-weight: 400;
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 15px;
+        padding: 10px 20px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 10px;
+        width: 300px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 8px;
+        padding: 10px 15px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 8px;
+        font-weight: 400;
+        width: 250px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 12px;
+        padding: 10px 10px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 8px;
+        width: 280px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 9px;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 300px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 8px;
+        padding: 10px 15px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .container .section1 h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section1 p{
+        line-height: 150%;
+        font-size: 6px;
+        font-weight: 400;
+        width: 220px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(0, 217, 255, 0.3);
+        color: rgba(49, 42, 42, 0.997);
+    }
+    .container .section2 h2{
+        text-align: right;
+        font-size: 6px;
+        width: 230px;
+        font-weight: 400;
+        line-height: 110%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    .container .section3 h1{
+        text-align: center;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 7px;
+    }
+}

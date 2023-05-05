@@ -1,0 +1,3484 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .nav .h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container .nav i{
+    display: none;
+}
+.container .nav .h1 .logo{
+    font-family: 'Nova Oval', cursive;
+    font-size: 36px;
+    font-weight: 600;
+}
+.container .nav .ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .nav .ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    padding: 50px 100px;
+    background-color: rgb(0, 0, 255, 0.8);
+    color: black;
+}
+.container .section1 h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+.container .section1 h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.container .section1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.container .section1 a{
+    text-decoration: none;
+    color: white;
+}
+.container .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    padding: 50px 100px;
+    background-color: rgb(41, 37, 37);
+    color: white;
+}
+.container .section2 h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+.container .section2 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section2 span h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.container .section2 span p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    padding: 50px 100px;
+    background-color: rgb(41, 37, 37);
+    color: white;
+}
+.container .section3 h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+.container .section3 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section3 span h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.container .section3 span p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    padding: 50px 100px;
+    background-color: rgb(41, 37, 37);
+    color: white;
+}
+.container .section4 h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+.container .section4 span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+.container .section4 span h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.container .section4 span p{
+    font-weight: 300;
+    font-size: 18px;
+}
+.container .section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 30px 80px;
+    gap: 10px;
+    background-color: aqua;
+}
+.container .section5 h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.container .section5 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.container .section5 span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: rgb(0, 0, 255, 0.8);
+    border-radius: 5px;
+}
+.container .section5 span .i{
+    font-size: 20px;
+}
+.container .section5 span a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container .footer{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+    padding-right: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container .footer .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .h1 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: yellow;
+}
+.container .footer .a1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container .footer .a1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container .footer p{
+    color: white;
+    font-size: 14px;
+}
+.container .footer .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .support p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .support .a2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .support .a2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.container .footer .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container .footer .about p{
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer .about .a3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .footer .about .a3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+@media screen and (max-width: 1100px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 950px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }  
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 50px 80px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section2 span h3{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section3 span h3{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section4 span h3{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 50px;
+        gap: 10px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 12px 20px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 20px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 900px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 40px 80px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 20px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section2 span h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 20px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section3 span h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section4 span h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 50px;
+        gap: 10px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 29px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 12px 20px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 20px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 40px 30px;
+        padding-right: 150px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}      
+@media screen and (max-width: 800px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 40px 80px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 10px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section2 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 10px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section3 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 80px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section4 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 50px;
+        gap: 8px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 12px 20px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 20px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}    
+@media screen and (max-width: 750px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }    
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}      
+@media screen and (max-width: 700px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 40px 50px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 50px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 10px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section2 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 50px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 10px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section3 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding: 40px 50px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+    .container .section4 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 30px 40px;
+        gap: 8px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 18px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 30px;
+        padding-right: 120px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }   
+}    
+@media screen and (max-width: 600px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+        padding: 30px 30px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section2 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section3 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section4 span h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px 20px;
+        gap: 5px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 16px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}
+@media screen and (max-width: 550px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+        padding: 30px 30px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section2 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section3 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 30px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section4 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px 20px;
+        gap: 5px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 15px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 500px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+        padding: 30px 20px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section2 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section3 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 15px;
+        padding: 30px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+    .container .section4 span h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px 10px;
+        gap: 5px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 15px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        padding-right: 80px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+    } 
+}  
+@media screen and (max-width: 450px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+        padding: 20px 20px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section2 span h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section3 span h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 20px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section4 span h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 10px;
+        gap: 3px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 4px;
+        padding: 8px 12px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 12px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 60px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 400px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 8px 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+        padding: 10px 10px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section2 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section3 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section4 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 8px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 10px;
+        gap: 3px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 4px;
+        padding: 8px 12px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 10px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 350px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+        font-weight: 500;
+    }    
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+        padding: 10px 10px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section2 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section3 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section4 span h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 8px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 10px;
+        gap: 3px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 4px;
+        padding: 5px 8px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 10px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+    } 
+    .container .footer{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 20px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .footer .h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .container .footer .h1 h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: yellow;
+    }
+    .container .footer .a1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    .container .footer .a1 i{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+    }
+    .container .footer p{
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .support p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .support .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .support .a2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    }
+    .container .footer .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .container .footer .about p{
+        color: yellow;
+        text-decoration: none;
+        font-size: 8px;
+    }
+    .container .footer .about .a3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .container .footer .about .a3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 6px;
+    } 
+}
+@media screen and (max-width: 300px){
+    .container .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 6px 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container .nav .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .container .nav i{
+        display: none;
+    }
+    .container .nav .h1 .logo{
+        font-family: 'Nova Oval', cursive;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .container .nav .ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6px;
+    }
+    .container .nav .ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .container .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+        padding: 10px 10px;
+        background-color: rgb(0, 0, 255, 0.8);
+        color: black;
+    }
+    .container .section1 h1{
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+    }
+    .container .section1 h2{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .container .section1 p{
+        font-size: 6px;
+        font-weight: 400;
+    }
+    .container .section1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section2 h2{
+        text-align: center;
+        font-size: 2px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section2 span h3{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section2 span p{
+        font-size: 6px;
+        font-weight: 300;
+    }
+    .container .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+        padding-bottom: 0px;
+    }
+    .container .section3 h2{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section3 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section3 span h3{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section3 span p{
+        font-size: 6px;
+        font-weight: 300;
+    }
+    .container .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: rgb(41, 37, 37);
+        color: white;
+    }
+    .container .section4 h2{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .container .section4 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        gap: 4px;
+    }
+    .container .section4 span h3{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .container .section4 span p{
+        font-weight: 300;
+        font-size: 6px;
+    }
+    .container .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 10px;
+        gap: 3px;
+        background-color: aqua;
+    }
+    .container .section5 h1{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .container .section5 p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .container .section5 span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-top: 4px;
+        padding: 5px 8px;
+        background-color: rgb(0, 0, 255, 0.8);
+        border-radius: 5px;
+    }
+    .container .section5 span .i{
+        font-size: 8px;
+    }
+    .container .section5 span a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        font-size: 8px;
+        font-weight: 500;
+    } 
+}            
